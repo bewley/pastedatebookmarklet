@@ -1,0 +1,15 @@
+// javascript:(function(){var t = document.activeElement.value,d1 = new Date(t),d2 = d1.toISOString().slice(0,10),nm = document.activeElement.name, ta = document.getElementsByName(nm), n = ta.length;while(n--){ta[n].value = d2;}}());
+
+javascript:(
+  function()
+    {
+      var t = document.activeElement.value,
+      d1 = new Date(t),
+      d2 = d1.toISOString().slice(0,10),
+      nm = document.activeElement.name, 
+      ta = document.getElementsByName(nm), 
+      n = ta.length;
+      while(n--)
+        {ta[n].value = d2;}
+    }()
+);
