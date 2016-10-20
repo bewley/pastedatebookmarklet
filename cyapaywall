@@ -1,0 +1,1 @@
+javascript:location.href='https://www.google.com/webhp? %23q=' + encodeURIComponent (location.href) + '&btnI=I'
